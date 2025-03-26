@@ -1,47 +1,59 @@
-# Calculadora Multifuncional
+# Y
 
-A idéia desse projeto é criar uma aplicação que funcione como uma calculadora que resolve operações matematicas, problemas de física e até calculos estruturais de engenharia.
-Na tela de cada operação, após mostrar o resultado para o usuário, terá uma explicação de como foi feita aquela operação, cálculo ou fórmula.
-Também terá um link para um vídeo no YouTube, de uma pesoa explicando de como é feita, caso o usuário queira aprender sobre o assunto também.
-Funcionará como uma calculadora simples, sem necessidade de login, para resolução apenas daquela operação de forma rápida, mas também terá uma parte de login, onde cada usuário poderá ter um histórico das últimas contas feitas, ou últimas matérias visualizadas.
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.5.
 
+## Development server
 
-## Funcionalidades
+To start a local development server, run:
 
-- Realiza cálculos simples (soma, subtração, multiplicação, divisão)
-- Realiza operações mais complexas (potenciação, radiciação, sistemas de equações)
-- Funcionalidade didática que ensina como realizar os cálculos
-- Histórico de cálculos para usuários logados
+```bash
+ng serve
+```
 
-## Tecnologias Utilizadas
+Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-- **Frontend**: Angular, HTML, CSS
-- **Backend**: C# (.NET Core)
-- **Banco de Dados**: SQL Server 
-- **Outras Ferramentas**: Git, GitHub
+## Code scaffolding
 
-## Como Rodar o Projeto
+Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
 
-### Frontend (Angular)
+```bash
+ng generate component component-name
+```
 
-1. Clone o repositório.
-2. Navegue até a pasta do frontend.
-3. Execute `npm install` para instalar as dependências.
-4. Execute `npm start` para iniciar o servidor de desenvolvimento.
+For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
 
-### Backend (C#)
+```bash
+ng generate --help
+```
 
-1. Abra o projeto no Visual Studio.
-2. Configure a string de conexão com o banco de dados.
-3. Execute o projeto para rodar o backend.
+## Building
 
-## Como Contribuir
+To build the project run:
 
-1. Fork este repositório.
-2. Crie uma branch para sua feature (`git checkout -b feature/nome-da-feature`).
-3. Faça as modificações necessárias.
-4. Envie o pull request.
+```bash
+ng build
+```
 
-## Licença
+This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
 
-Este projeto está sob a licença **None**, o que significa que a modificação e distribuição não são permitidas sem permissão explícita.
+## Running unit tests
+
+To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+
+```bash
+ng test
+```
+
+## Running end-to-end tests
+
+For end-to-end (e2e) testing, run:
+
+```bash
+ng e2e
+```
+
+Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+
+## Additional Resources
+
+For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
